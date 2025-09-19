@@ -1,0 +1,174 @@
+2.23
+   *
+ ***
+****
+ ***
+   *
+
+2.22
+*
+***
+****
+****
+**
+
+2.21
+***************
+
+2.20
+*
+***
+*****
+****
+**
+
+2.19
+  ****
+ *****
+******
+ *****
+  ****
+
+2.18
+public class Shapes{
+	public static void main(String[] args){
+	System.out.println("*********   ***     *        *  ");
+	System.out.println("*       *  *   *   ***      * *  ");
+	System.out.println("*       * *     * *****    *   *  ");
+	System.out.println("*       * *     *   *     *     *  ");
+	System.out.println("*       * *     *   *    *       * ");
+	System.out.println("*       * *     *   *     *     * ");
+	System.out.println("*       * *     *   *      *   * ");
+	System.out.println("*       *  *   *    *       * * ");
+	System.out.println("*********   ***     *        *  ");
+	}
+}
+
+2.17
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2.24
+import java.util.Scanner;
+
+public class Number{
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first integer");
+        int 1 = input.nextInt();
+
+        System.out.print("Enter second integer");
+        int 2 = input.nextInt();
+
+        System.out.print("Enter third integer");
+        int 3 = input.nextInt();
+
+        System.out.print("Enter fourth integer");
+        int 4 = input.nextInt();
+
+        System.out.print("Enter fifth integer");
+        int 5 = input.nextInt();
+
+        int largest = 1;
+        int smallest = 1;
+
+        if (2 > largest) largest = 2;
+        if (3 > largest) largest = 3;
+        if (4 > largest) largest = 4;
+        if (5 > largest) largest = 5;
+
+        if (2 < smallest) smallest = 2;
+        if (3 < smallest) smallest = 3;
+        if (4 < smallest) smallest = 4;
+        if (5 < smallest) smallest = 5;
+
+        System.out.println("Largest: " + largest);
+        System.out.println("Smallest: " + smallest);
+    }
+}
+
+2.25
+
+import java.util.Scanner;
+
+public class Divide{
+	public static void main(String[] args){
+	Scanner input = new Scanner(System.in);
+	System.out.print("Enter an integer: ");
+	int number = input.nextInt();
+	
+	if ( number % 3==0 ){
+	System.out.printf(%d is divisible by 3);
+	}
+	else{
+	System.out.printf(%d is not divisible by 3);
+	}
+	
+	
+
+2.26
+
+import java.util.Scanner;
+
+public class Work{
+	public static void main(String[] args){
+	Scanner input = new Scanner(System.in);
+	System.out.print("Enter first number": );
+	int first = input.nextInt();
+	System.out.print("Enter second number": );
+	
+	int sum = first + first + first;
+	int sum1 = second + second;
+	int multiple = sum / sum1;
+
+	if(sum % sum1 == 0 ){
+	System.out.println("The multiple of first and second is" + multiple);
+	
+	else{
+	System.out.println("The sum are not multiples");
+	}
+
+
+2.27
+
+public class Checker{
+	public static void main(String[] args);
+	System.out.println("* * * * * * * *") 
+	System.out.println(" * * * * * * * *")
+	System.out.println("* * * * * * * *")
+	System.out.println(" * * * * * * * *")
+	System.out.println("* * * * * * * *")
+	System.out.println(" * * * * * * * *")
+	System.out.println("* * * * * * * *")
+	System.out.println(" * * * * * * * *")
+2.28
+
+import java.util.Scanner;
+
+public class Circle{
+    public static void main(String[] args) { 
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter the radius: ");
+        int radius = input.nextInt();
+
+        System.out.println("Diameter: " + (2 * radius));
+        System.out.println("Circumference: " + (2 * PI * radius));
+        System.out.println("Area: " + (PI * radius * radius));  
+    }
+}
+
+
+

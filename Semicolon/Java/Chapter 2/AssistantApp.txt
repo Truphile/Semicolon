@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class AssistantApp{
+	public static void main(String[] args){
+	Scanner input = new Scanner(System.in);
+	System.out.print("Enter user name: ");
+	String name = input.nextLine();
+	
+	System.out.print("Hi " + name + "Enter user age: ");
+	int age = input.nextInt();
+
+	if (age <= 13){
+	System.out.println("You are a younger explore!");
+	} else if (age <= 19){
+	System.out.println("Teen life is fun, enjoy it!");
+	} else if (age <= 59){
+	System.out.println("Adulting can be challenging, stay strong!");
+	} else {
+	System.out.println("Wisdom looks good on you!");
+	}
+
+	System.out.print("Enter user mood today (happy,sad,excited,tired): ");
+	String mood = input.nextLine();
