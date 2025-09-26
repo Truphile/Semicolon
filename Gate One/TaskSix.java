@@ -11,7 +11,7 @@ while(count <= 10){
 		while(counter <= 5){
 			counter++;		
 			multiple = multiple * count;
-			System.out.println(multiple);
+			System.out.print(multiple +" ");
 		}
 	}
 	

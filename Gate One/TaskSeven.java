@@ -1,8 +1,6 @@
-import java.util.Scanner;
 
 public class TaskSeven{
 	public static void main(String[] args){
-	Scanner input = new Scanner(System.in);
 	
 int count = 1;
 int counter = 1;
@@ -16,9 +14,11 @@ while(count <= 10){
 		counter++;		
 		multiple = multiple * count;
 		sum = sum + multiple;
-		System.out.println(sum);
-		}
+		multiple = multiple + sum;
+		multiple = multiple + sum;
 	
+		}
+	System.out.print(multiple + " ");
 }
 		count++;
 		counter = 1;
