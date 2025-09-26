@@ -1,4 +1,4 @@
-public class TaskOne{
+public class TaskTwo{
 	public static void main(String[] args){
 	
 int count = 0;
