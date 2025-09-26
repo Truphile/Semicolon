@@ -13,16 +13,17 @@ while(count <= 10){
 	if (count % 4 == 0){
 
 		while(counter <= 5){
-		System.out.print(sum);
 		counter++;		
 		multiple = multiple * count;
-		sum = sum + multiple
+		sum = sum + multiple;
+		System.out.println(sum);
+		}
 	
 }
-count++;
-counter = 1;
-
-		}
+		count++;
+		counter = 1;
+		multiple = 1;
+		sum = 0;
 	}
 }
 }
