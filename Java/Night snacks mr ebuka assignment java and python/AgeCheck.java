@@ -1,3 +1,4 @@
+
 /*
 step 1 - prompt user to write father's current age from age 1 to age 80
 step 2 - prompt user to write collect son's current age from age 1 to age 80
@@ -24,10 +25,11 @@ int ageDifference = (father - son);
 int yearDifference = (ageDifference - son);
 
 
-if (father > son && father <= 80 && son >=1);
 
 if (yearDifference >= 0){
 	yearDifference = yearDifference;
+
+if (father > son && father <= 80 && son >=1);
 
 	System.out.println("Number of years ago " + yearDifference);
 }else {

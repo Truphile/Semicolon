@@ -15,12 +15,15 @@ age_difference = father - son
 
 year_difference = age_difference - son
 
-if father > son and father <= 80 and son >=1:
+year_in_the_past = abs(year_difference > father)
+
+if father > son and father >= 80 and son > 1:
 	print('invalid input')
+	if year_difference > father:
+		print(abs(year_in_the_past))
 elif year_difference >= 0:
 	print('Number of years ago' ,year_difference)
 elif year_difference <= 0:
 	print('Wrong calculation!')
 else :
 	print('invalid input')
-
